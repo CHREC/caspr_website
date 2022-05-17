@@ -1,0 +1,36 @@
+<!-- commandlog Modal -->
+
+<div
+  class="commandlog-modal modal fade"
+  id="commandlog-extended"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">{{ site.data.sitetext[site.locale].commandlog.title | markdownify | default: "commandlog" }}</h2>
+              {% assign logs = site.commandlog | reverse %}
+              {% for project in logs %}
+                  <div class="row-md-4 row-sm-6 modal-item">
+                    <div class="modal-caption">
+                      <p><b>[{{ project.pubdate }}]: </b>{{ project.content }}</p>
+                    </div>
+                  </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End commandlog Modal -->

@@ -1,0 +1,33 @@
+<!-- Services -->
+  <section class="page-section" id="{{ site.data.sitetext[site.locale].services.section | default: "services" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].services.title | default: "Services" }}</h2>
+          {% if site.data.sitetext[site.locale].services.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].services.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center" style="justify-content: center;">
+	  {% for service in site.data.sitetext[site.locale].services.list %}
+        <div class="col-md-4">
+          <div class="service-logo-container">
+            <a href="{{ service.link }}">
+              {% if service.title_show==0 %}
+                <img class="img-fluid service-logo" src="{{ service.logo }}" alt="">
+              {% else %}
+                <h2 class="service-heading">{{ service.title | markdownify }}</h2>
+              {% endif %}
+            </a>
+          </div>
+          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+<!-- End Services -->

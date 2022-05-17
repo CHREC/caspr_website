@@ -1,0 +1,18 @@
+// Styling for the horizontally scrolling clients section
+#scrolling-clients {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#center-clients {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#col-md-3 col-sm-6 {
+  flex: 0 0 auto;
+}

@@ -1,0 +1,202 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    #title: STP-H7-CASPR
+    #text:
+    #button: Tell Me More
+    #buttonlink: "#services"
+
+  about:
+    title: "About CASPR"
+    body: "Configurable and Autonomous Sensor Processing Research (CASPR) is designed to enable effective onboard processing for next-generation sensors and applications.
+           CASPR is a Department of Defense payload on the Space Test Program - Houston 7 (STP-H7) pallet aboard the International Space Station. 
+           It was developed, designed, and built by the students and faculty of the NSF Center for Space, High-performance, and Resilient Computing at the University of Pittsburgh.
+           Explore below to learn more about this exciting research testbed."
+    section: about
+    img-max-height: 100px
+    list:
+      - title: "NSF-SHREC"
+        url: http://nsf-shrec.org
+        logo: assets/img/shrec_logo_dark_bg.png
+      - title: "University of Pittsburgh"
+        url: https://pitt.edu
+        logo: assets/img/pitt_logo_dark_bg.png
+
+  commandlog:
+    title: "Command Logs"
+    text: "Explore the latest from the students commanding CASPR."
+    section: commandlog
+    detailbutton: "Explore Older Logs"
+    closebutton: "Close Command Logs"
+
+  portfolio:
+    title: "Featured Technologies"
+    text: "Click to explore some of the exciting technologies on STP-H7-CASPR."
+    section: portfolio
+    closebutton: "Close Section"
+
+  timeline:
+    title: "Timeline"
+    text: "From design to online"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Original Design"
+        year: "August 2018"
+        desc: "Proposed the original design of CASPR"
+        image: assets/img/timeline/original_design.png
+        alt:
+      - title: "Preliminary Design Review"
+        year: "October 2019"
+        desc: "Showcased mission goals and development progress"
+        image: assets/img/timeline/pdr_design.png
+        alt:
+      - title: "Critical Design Review"
+        year: "April 2020"
+        desc: "Finished up the design"
+        image: assets/img/timeline/chassis_cdr.png
+        alt:
+      - title: "Field Configuration Audit"
+        year: "November 2020"
+        desc: "Ensured system meets all specifications"
+        image: assets/img/timeline/fca_design.png
+        alt:
+      - title: "Flight Unit Assembly"
+        year: "February 2021"
+        desc: "Prepared the flight unit at our Pitt lab"
+        image: assets/img/timeline/assembly.jpg
+        alt:
+      - title: "Environmental Testing"
+        year: "Early March 2021"
+        desc: "Performed thermal and vibration testing"
+        image: assets/img/timeline/environmental.jpg
+        alt:
+      - title: "On-Dock Integration"
+        year: "Late March 2021"
+        desc: "Delivered CASPR to Kennedy Space Center"
+        image: assets/img/timeline/ondock.png
+        alt:
+      - title: "Software Upload"
+        year: "September 2021"
+        desc: "Updated the software with new apps"
+        image: assets/img/timeline/software.jpg
+        alt:
+      - title: "[CASPR Liftoff!](https://youtu.be/gEv6HLHYhWo?t=1618)"
+        year: "December 2021"
+        desc: "Launched aboard SpaceX CRS-24"
+        image: assets/img/timeline/launch.png
+        alt:
+      - title: "[Installation on ISS](https://youtu.be/pAybqEJEsS0?t=159)"
+        year: "January 2022"
+        desc: "Installed as part of the STP-H7 palled on the outside of the Columbus module"
+        image: assets/img/timeline/installation.png
+        alt:
+      - title: "Initial Commanding of CASPR"
+        year: "January 2022"
+        desc: "Sent the first commands from our lab at Pitt"
+        image: assets/img/timeline/commands.png
+        alt:
+        # you can enforce the alignment
+        # align: right
+    end: "CASPR <br> operations <br> underway!"
+
+  services:
+    title: "Main Partners"
+    text: "NSF-SHREC and STP-H7-CASPR are funded by industry and agency members and by the IUCRC Program of the National
+     Science Foundation under Grant No. CNS-1738783. We would like to specifically thank the following companies and agencies for their support:"
+    section: services
+    list:
+      - title: "AFRL"
+        desc: "The Air Force Research Laboratory is the Department of Defense sponsor for this project."
+        logo: assets/img/partners/afrl.png
+        link: https://afresearchlab.com/
+        title_show: 0
+      - title: "STP"
+        desc: "The Department-of-Defense's Space Test Program oversees the STP-H7 pallet which hosts CASPR."
+        link: https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2788&context=smallsat&httpsredir=1&referer=
+        title_show: 1
+      - title: "Satlantis"
+        desc: "Satlantis designed, built, and donated the binocular iSIM-90 optics on CASPR."
+        logo: assets/img/partners/satlantis.png
+        link: https://satlantis.com/
+        title_show: 0
+      - title: "NRL"
+        desc: "The Naval Research Laboratory provided access to their environmental testing equipment and donated components."
+        logo: assets/img/partners/nrl.png
+        link: https://www.nrl.navy.mil/
+        title_show: 0
+      - title: "NASA Goddard"
+        desc: "The NASA Goddard branch helped with designing the electronics."
+        link: https://www.nasa.gov/goddard
+        title_show: 1
+      - title: "Texas Instruments"
+        desc: "Texas Instruments donated power components used on CASPR."
+        link: https://www.ti.com/
+        title_show: 1
+
+  contact:
+    title: "Contact Us"
+    text: "Would you like to learn more about CASPR and NSF-SHREC?"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  publications:
+    title: "Publications"
+    text: "Click to see publications about STP-H7-CASPR."
+    section: publications
+    list:
+      - title: "CASPR: Autonomous Sensor Processing Experiment for STP-H7"
+        desc: SmallSat Conference 2020
+        thumbnail: assets/img/publications/caspr_ssc20.jpg
+        link: "https://digitalcommons.usu.edu/smallsat/2020/all2020/64/"
+      - title: "STP-H7-CASPR: A Transition from Mission Concept to Launch"
+        desc: SmallSat Conference 2021
+        thumbnail: assets/img/publications/caspr_ssc21.jpg
+        link: "https://digitalcommons.usu.edu/smallsat/2021/all2021/241/"
+
+  clients:
+    section: clients
+    max-height: 100px
+    list:
+      - title: "NSF-SHREC"
+        url: http://nsf-shrec.org
+        logo: assets/img/shrec_logo_dark_bg.png
+      - title: "University of Pittsburgh"
+        url: https://pitt.edu
+        logo: assets/img/pitt_logo_dark_bg.png
+
+  footer:
+    #legal: "Privacy Policy"
+    social:
+      - url: https://www.linkedin.com/company/nsf-center-for-space-high-performance-and-resilient-computing-shrec/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/chrec
+        icon: "fab fa-github"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

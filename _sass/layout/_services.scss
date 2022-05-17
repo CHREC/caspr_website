@@ -1,0 +1,16 @@
+// Styling for the services section
+#services {
+  background-color: $gray-800;
+}
+
+.service-logo-container {
+  height: 100px;
+}
+
+.service-logo {
+  max-width: 60%;
+  margin: 15px 0;
+}
+.service-heading {
+  text-transform: none;
+}
