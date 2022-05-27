@@ -84,7 +84,7 @@ en: &DEFAULT_EN
         alt:
       - title: "On-Dock Integration"
         year: "Late March 2021"
-        desc: "Delivered CASPR to Kennedy Space Center"
+        desc: "Delivered CASPR to NASA Johnson Space Center"
         image: assets/img/timeline/ondock.png
         alt:
       - title: "Software Upload"
@@ -99,7 +99,7 @@ en: &DEFAULT_EN
         alt:
       - title: "[Installation on ISS](https://youtu.be/pAybqEJEsS0?t=159)"
         year: "January 2022"
-        desc: "Installed as part of the STP-H7 palled on the outside of the Columbus module"
+        desc: "Installed as part of the STP-H7 pallet on the outside of the Columbus module"
         image: assets/img/timeline/installation.png
         alt:
       - title: "Initial Commanding of CASPR"
