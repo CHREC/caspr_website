@@ -173,6 +173,29 @@ en: &DEFAULT_EN
         desc: SmallSat Conference 2021
         thumbnail: assets/img/publications/caspr_ssc21.jpg
         link: "https://digitalcommons.usu.edu/smallsat/2021/all2021/241/"
+    prev-work-text: "Seminal works which influenced STP-H7-CASPR."
+    prev-work-list:
+      - title: "CSP: A Multifaceted Hybrid Architecture for Space Computing"
+        desc: SmallSat Conference 2014 
+        thumbnail: assets/img/publications/csp_ssc14.jpg
+        link: "https://digitalcommons.usu.edu/smallsat/2014/AdvTechI/3/"
+      - title: "CSP Hybrid Space Computing for STP-H5/ISEM on ISS"
+        desc: SmallSat Conference 2015
+        thumbnail: assets/img/publications/csp_ssc15.jpg
+        link: "https://digitalcommons.usu.edu/smallsat/2015/all2015/21/"
+      - title: "CSP Hybrid Space Computing"
+        desc: Journal of Aerospace Information Systems
+        thumbnail: assets/img/publications/csp_jais18.jpg
+        link: "https://arc.aiaa.org/doi/abs/10.2514/1.I010572?journalCode=jais"
+      - title: "SSIVP: Spacecraft Supercomputing Experiment for STP-H6"
+        desc: SmallSat Conference 2017
+        thumbnail: assets/img/publications/ssivp_ssc17.jpg
+        link: "https://digitalcommons.usu.edu/smallsat/2017/all2017/163/"
+      - title: "Adapting on Orbit: Conclusions of STP-H6-SSIVP"
+        desc: SmallSat Conference 2022
+        thumbnail: assets/img/publications/ssivp_ssc22.jpg
+      
+      
 
   clients:
     section: clients
