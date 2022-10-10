@@ -173,6 +173,10 @@ en: &DEFAULT_EN
         desc: SmallSat Conference 2021
         thumbnail: assets/img/publications/caspr_ssc21.jpg
         link: "https://digitalcommons.usu.edu/smallsat/2021/all2021/241/"
+      - title: "Automated Mapping for Comparison of Satellite Imagery"
+        desc: Space Imaging Workshop 2022
+        thumbnail: assets/img/publications/caspr_siw22.jpg
+        link: "https://seal.ae.gatech.edu/sites/default/files/2022-10/SIW22-21.pdf"
     prev-work-text: "Seminal works which influenced STP-H7-CASPR."
     prev-work-list:
       - title: "CSP: A Multifaceted Hybrid Architecture for Space Computing"
