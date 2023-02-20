@@ -27,6 +27,7 @@ $iss-image: "{{ site.data.style.iss-image }}";
 // Layout
 @import "layout/masthead.scss";
 @import "layout/iss.scss";
+@import "layout/patch.scss";
 @import "layout/services.scss";
 @import "layout/commandlog.scss";
 @import "layout/portfolio.scss";
